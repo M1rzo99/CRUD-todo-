@@ -51,7 +51,8 @@ export default function ToDOList() {
        <ToDOForm setTodos = {setTodos}/>
       </div>
 
-      {todos.map((todo)=>(
+     <div className='todos'>
+     {todos.map((todo)=>(
         <div className='items' key={todo.id}>
 
             {editingToDoID == todo.id ? (
@@ -82,6 +83,7 @@ export default function ToDOList() {
             </button>
         </div>
       ))}
+     </div>
     </div>
   )
 }

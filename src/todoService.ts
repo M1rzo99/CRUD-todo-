@@ -1,7 +1,5 @@
 import ToDoTypes from "./todo";
-
 const LOCAL_STORAGE_KEY = 'todos';
-
 const ToDOService = {
 
     // get ToDos
